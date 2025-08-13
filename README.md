@@ -72,7 +72,7 @@ mysql -u root -p food_service_atm < database/schema.sql
 By default, `main.py` connects with:
 
 ```python
-mysql.connector.connect(host="localhost", user="root", password="redhat", database="food_service_atm")
+mysql.connector.connect(host="localhost", user="root", password="<YourPass>", database="food_service_atm")
 ```
 
 If your MySQL username/password differ, edit `connect_db()` in `main.py` accordingly.
